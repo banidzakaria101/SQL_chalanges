@@ -1,0 +1,3 @@
+SELECT nom, statut FROM invités;
+SELECT COUNT(nom) FROM invités;
+SELECT COUNT(nom) FROM invités WHERE statut = 'Suspect';
